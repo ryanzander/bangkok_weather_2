@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "9a1a92567da5ba281853eeb8aa848932366c22d4c906cd6a3183548b7eafb970"
+build_start_time: [1673507808, 172742843]
+build_end_time: [1673507808, 740929126]
+inputs:
+  "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/macos/Flutter/GeneratedPluginRegistrant.swift": [1673507801, 434389114]
+  "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/macos/Runner/AppDelegate.swift": [1631275565, 738389968]
+  "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/macos/Runner/MainFlutterWindow.swift": [1631275565, 742466211]
