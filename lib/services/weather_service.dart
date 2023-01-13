@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:bangkok_weather/api_urls.dart';
+import 'package:bangkok_weather/api_keys.dart';
 import 'package:bangkok_weather/models/weather.dart';
 import 'package:geolocator/geolocator.dart';
 
