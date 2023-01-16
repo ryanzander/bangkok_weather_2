@@ -1,4 +1,4 @@
-#Thu Jan 12 17:23:40 ICT 2023
+#Fri Jan 13 22:31:17 ICT 2023
 base.0=/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
