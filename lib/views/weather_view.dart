@@ -36,7 +36,7 @@ class _WeatherViewState extends State<WeatherView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.indigo.shade300,
+      backgroundColor: Colors.blue,
       body: Center(
         child: isLoading
             ? const CircularProgressIndicator()
@@ -47,19 +47,19 @@ class _WeatherViewState extends State<WeatherView> {
                     padding: const EdgeInsets.all(20),
                     child: Text(
                       currentWeather?.name ?? '',
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 40,
                         fontWeight: FontWeight.w600,
-                        color: Colors.indigo.shade900,
+                        color: Colors.white,
                       ),
                     ),
                   ),
                   Text(
                     ' ${(currentWeather?.temp ?? '')}°',
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 80,
                       fontWeight: FontWeight.w600,
-                      color: Colors.indigo.shade900,
+                      color: Colors.white,
                     ),
                   ),
                   Text(
@@ -67,7 +67,7 @@ class _WeatherViewState extends State<WeatherView> {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
-                      color: Colors.indigo.shade100,
+                      color: Colors.blue.shade200,
                     ),
                   ),
                   SizedBox(
@@ -83,10 +83,10 @@ class _WeatherViewState extends State<WeatherView> {
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: Text(
                       currentWeather?.description ?? '',
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.w600,
-                        color: Colors.indigo.shade900,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -100,7 +100,7 @@ class _WeatherViewState extends State<WeatherView> {
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
-                        color: Colors.indigo.shade100,
+                        color: Colors.blue.shade200,
                       ),
                     ),
                   ),
