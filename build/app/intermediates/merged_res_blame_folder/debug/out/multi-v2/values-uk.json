@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather_2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
             "map": [
+                {
+                    "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/5997edf89e9077928414244d94bb23d7/transformed/jetified-glance-appwidget-1.0.0/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,294",
+                        "endColumns": "238,121",
+                        "endOffsets": "289,411"
+                    },
+                    "to": {
+                        "startLines": "27,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "3008,3247",
+                        "endColumns": "238,121",
+                        "endOffsets": "3242,3364"
+                    }
+                },
                 {
                     "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/46c377971206820cb075d1530248bbbc/transformed/jetified-play-services-basement-18.3.0/res/values-uk/values.xml",
                     "from": {
@@ -30,11 +47,11 @@
                         "endOffsets": "150,252,353,454,559,664,777,878"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,27",
+                        "startLines": "2,3,4,5,6,7,8,29",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,257,358,459,564,669,3008",
+                        "startOffsets": "55,155,257,358,459,564,669,3369",
                         "endColumns": "99,101,100,100,104,104,112,100",
-                        "endOffsets": "150,252,353,454,559,664,777,3104"
+                        "endOffsets": "150,252,353,454,559,664,777,3465"
                     }
                 },
                 {

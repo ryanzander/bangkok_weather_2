@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+            "outputFile": "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather_2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/50bcb13917740a643c9fa82af7376177/transformed/jetified-play-services-base-18.3.0/res/values-fr/values.xml",
@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/5997edf89e9077928414244d94bb23d7/transformed/jetified-glance-appwidget-1.0.0/res/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,280",
+                        "endColumns": "224,126",
+                        "endOffsets": "275,402"
+                    },
+                    "to": {
+                        "startLines": "27,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "3184,3409",
+                        "endColumns": "224,126",
+                        "endOffsets": "3404,3531"
+                    }
+                },
+                {
                     "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/f270a6fc5a2e141c3d21adefe361f601/transformed/core-1.13.0/res/values-fr/values-fr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -47,11 +64,11 @@
                         "endOffsets": "148,250,349,451,555,659,777,878"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,27",
+                        "startLines": "2,3,4,5,6,7,8,29",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,354,456,560,664,3184",
+                        "startOffsets": "55,153,255,354,456,560,664,3536",
                         "endColumns": "97,101,98,101,103,103,117,100",
-                        "endOffsets": "148,250,349,451,555,659,777,3280"
+                        "endOffsets": "148,250,349,451,555,659,777,3632"
                     }
                 }
             ]

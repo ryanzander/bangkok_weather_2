@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Users/ryanzanderA/Developer/BangkokWeather/bangkok_weather_2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/f270a6fc5a2e141c3d21adefe361f601/transformed/core-1.13.0/res/values-sw/values-sw.xml",
@@ -13,11 +13,11 @@
                         "endOffsets": "144,246,343,444,551,658,773,874"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,27",
+                        "startLines": "2,3,4,5,6,7,8,29",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,149,251,348,449,556,663,3039",
+                        "startOffsets": "55,149,251,348,449,556,663,3365",
                         "endColumns": "93,101,96,100,106,106,114,100",
-                        "endOffsets": "144,246,343,444,551,658,773,3135"
+                        "endOffsets": "144,246,343,444,551,658,773,3461"
                     }
                 },
                 {
@@ -35,6 +35,23 @@
                         "startOffsets": "1793",
                         "endColumns": "145",
                         "endOffsets": "1934"
+                    }
+                },
+                {
+                    "source": "/Users/ryanzanderA/.gradle/caches/transforms-3/5997edf89e9077928414244d94bb23d7/transformed/jetified-glance-appwidget-1.0.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,249",
+                        "endColumns": "193,131",
+                        "endOffsets": "244,376"
+                    },
+                    "to": {
+                        "startLines": "27,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "3039,3233",
+                        "endColumns": "193,131",
+                        "endOffsets": "3228,3360"
                     }
                 },
                 {
