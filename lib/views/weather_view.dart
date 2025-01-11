@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bangkok_weather/models/weather.dart';
 import 'package:bangkok_weather/services/weather_service.dart';
+import 'package:home_widget/home_widget.dart';
 
 class WeatherView extends StatefulWidget {
   const WeatherView({
@@ -31,6 +32,19 @@ class _WeatherViewState extends State<WeatherView> {
     setState(() {
       isLoading = false;
     });
+    updateWeatherWidget();
+  }
+
+  void updateWeatherWidget() {
+    if (currentWeather == null) return;
+    // Save the weather data to the widget
+    HomeWidget.saveWidgetData<String>(
+        'weather_temp', '${currentWeather!.temp}°');
+    HomeWidget.saveWidgetData<String>(
+        'weather_description', currentWeather!.description);
+    HomeWidget.updateWidget(
+      androidName: 'WeatherWidget',
+    );
   }
 
   @override
